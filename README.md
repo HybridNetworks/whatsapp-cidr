@@ -27,7 +27,7 @@
 
 ## 📜 FILES
 
-The links below will direct you to the processed versions of the files in this repository. See more information on the [wiki](https://github.com/HybridNetworks/BlackListBox/wiki/Sites-List). (Files are updated daily)
+The links below will direct you to the processed versions of the files in this repository. (Files are updated daily)
 
 | File Name                  | Format  | Protocol | Official                                                                                                           |
 | -------------------------- | ------- | -------- | ------------------------------------------------------------------------------------------------------------------ |
