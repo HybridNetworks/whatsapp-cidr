@@ -51,7 +51,7 @@ def saveFileRSC(clist):
     for i in clist:
         listEnd.append("add list=WHATSAPP-CIRD comment=WHATSAPP-CIRD address=" + i)
 
-    finalFile = open("WhatsApp/whatsapp_cird_ipv4.rsc", "w")
+    finalFile = open("WhatsApp/whatsapp_cidr_ipv4.rsc", "w")
     finalFile.write("# ============================================================\n")
     finalFile.write("#\n")
     finalFile.write("# whatsapp_cidr\n")
@@ -86,7 +86,7 @@ def saveFileRSC(clist):
 
 
 def saveFileList(clist, format) -> None:
-    finalFile = open("WhatsApp/whatsapp_cird_ipv4." + format, "w")
+    finalFile = open("WhatsApp/whatsapp_cidr_ipv4." + format, "w")
     finalFile.write("# ============================================================\n")
     finalFile.write("#\n")
     finalFile.write("# whatsapp_cidr\n")
