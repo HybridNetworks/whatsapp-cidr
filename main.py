@@ -93,6 +93,7 @@ def parseTxt(intxt) -> None:
 
     saveFileList(lst, "txt")
     saveFileList(lst, "netset")
+    saveFileList(lst, "list")
 
 
 def startNow() -> None:
