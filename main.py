@@ -43,6 +43,44 @@ def cleanZip() -> None:
 
 
 ################################################################################
+# Save File RSC Mikrotik
+################################################################################
+
+def saveFileRSC(clist):
+    listEnd=[]
+    for i in clist:
+        listEnd.append("add list=WHATSAPP-CIRD comment=WHATSAPP-CIRD address=" + i)
+
+    finalFile = open("WhatsApp/whatsapp_cird_ipv4.rsc", "w")
+    finalFile.write("# ============================================================\n")
+    finalFile.write("#\n")
+    finalFile.write("# whatsapp_cidr\n")
+    finalFile.write("#\n")
+    finalFile.write("# ipv4 mikrotik address-list\n")
+    finalFile.write("#\n")
+    finalFile.write("# List of the WhatsApp server IP addresses and ranges.\n")
+    finalFile.write("#\n")
+    finalFile.write("# Maintainer      : Meta\n")
+    finalFile.write("# Maintainer URL  : https://about.facebook.com/\n")
+    finalFile.write("# List source URL : https://developers.facebook.com/docs/whatsapp/guides/network-requirements/\n")
+    finalFile.write("#\n")
+    finalFile.write("# Category        : servers\n")
+    finalFile.write("# Version         : 1\n")
+    finalFile.write("#\n")
+    finalFile.write("# This File Date  : " + strftime("%Y-%m-%d %H:%M:%S", gmtime()) + "\n")
+    finalFile.write("# Update Frequency: 24 hours\n")
+    finalFile.write("# Entries         : " + str(len(clist)) + "\n")
+    finalFile.write("#\n")
+    finalFile.write("# (C) 2011-" + strftime("%Y", gmtime()) + " HybridNetworks Ltd. -- All Rights Reserved\n")
+    finalFile.write("#\n")
+    finalFile.write("# ============================================================\n")
+    finalFile.write("#\n")
+    finalFile.write("/ip firewall address-list" + "\n")
+    finalFile.writelines(listEnd)
+    finalFile.close() 
+
+
+################################################################################
 # Save File
 ################################################################################
 
@@ -94,6 +132,7 @@ def parseTxt(intxt) -> None:
     saveFileList(lst, "txt")
     saveFileList(lst, "netset")
     saveFileList(lst, "list")
+    saveFileRSC(lst)
 
 
 def startNow() -> None:
