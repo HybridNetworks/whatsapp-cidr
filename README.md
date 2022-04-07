@@ -34,6 +34,7 @@ The links below will direct you to the processed versions of the files in this r
 | whatsapp_cird_ipv4.txt     | txt     | IPv4     | [Download](https://raw.githubusercontent.com/HybridNetworks/whatsapp-cidr/main/WhatsApp/whatsapp_cird_ipv4.txt)    |
 | whatsapp_cird_ipv4.netset  | netset  | IPv4     | [Download](https://raw.githubusercontent.com/HybridNetworks/whatsapp-cidr/main/WhatsApp/whatsapp_cird_ipv4.netset) |
 | whatsapp_cird_ipv4.list  | list  | IPv4     | [Download](https://raw.githubusercontent.com/HybridNetworks/whatsapp-cidr/main/WhatsApp/whatsapp_cird_ipv4.list) |
+| whatsapp_cird_ipv4.rsc  | rsc (Mikrotik)  | IPv4     | [Download](https://raw.githubusercontent.com/HybridNetworks/whatsapp-cidr/main/WhatsApp/whatsapp_cird_ipv4.rsc) |
 
 ---
 
