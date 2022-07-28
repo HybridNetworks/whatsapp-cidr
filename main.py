@@ -158,9 +158,11 @@ def startNow() -> None:
         if fs.find(".zip") != -1:
             with ZipFile(fs) as zf:
                 for file in zf.namelist():
-                    zipa = ZipFile(fs)
-                    txtf = zipa.read(file)
-                    zipa.close()
+                    if "__MACOSX" not in file:
+                        print(file)
+                        zipa = ZipFile(fs)
+                        txtf = zipa.read(file)
+                        zipa.close()
 
     cleanZip()
     parseTxt(txtf)
