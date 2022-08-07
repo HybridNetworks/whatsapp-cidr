@@ -19,8 +19,8 @@
 
 ## 📋 Attributes
 
-1. Produced in IPv4-only and IPv4-CIDR-only.
-2. Updates at [≈0:31 AM UTC](https://24timezones.com/zona-horaria/utc) | [≈21:31 ART](https://24timezones.com/zona-horaria/art).
+1. Produced in IPv4-only and IPv4-CIDR-only. Optional: Domain/Subdomains.
+2. Updates at [≈00:00 UTC](https://24timezones.com/zona-horaria/utc) | [≈21:00 ART](https://24timezones.com/zona-horaria/art).
 3. No excess or trailing whitespace.
 4. No lingering webscraper garbage.
 5. Lines are terminated with `\n`.
@@ -35,6 +35,7 @@ The links below will direct you to the processed versions of the files in this r
 | whatsapp_cidr_ipv4.netset  | netset  | IPv4     | [Download](https://raw.githubusercontent.com/HybridNetworks/whatsapp-cidr/main/WhatsApp/whatsapp_cidr_ipv4.netset) |
 | whatsapp_cidr_ipv4.list  | list  | IPv4     | [Download](https://raw.githubusercontent.com/HybridNetworks/whatsapp-cidr/main/WhatsApp/whatsapp_cidr_ipv4.list) |
 | whatsapp_cidr_ipv4.rsc  | rsc (Mikrotik)  | IPv4     | [Download](https://raw.githubusercontent.com/HybridNetworks/whatsapp-cidr/main/WhatsApp/whatsapp_cidr_ipv4.rsc) |
+| whatsapp_domainlist.txt  | txt  | Domain     | [Download](https://raw.githubusercontent.com/HybridNetworks/whatsapp-cidr/main/WhatsApp/whatsapp_domainlist.txt) |
 
 ---
 
