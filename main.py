@@ -13,7 +13,9 @@ from os import walk
 from zipfile import ZipFile
 from time import gmtime, strftime
 from pathlib import Path
+from pysecuritytrails import SecurityTrails, SecurityTrailsError
 
+st = SecurityTrails('4BmIMfy1j7N8BnXQr2cd0TehnZSMY2W8')
 
 ################################################################################
 # Helper Functions
@@ -115,6 +117,41 @@ def saveFileList(clist, format) -> None:
 
 
 ################################################################################
+# Save File List Domain
+################################################################################
+
+
+def saveFileListDomain(clist, format) -> None:
+    finalFile = open("WhatsApp/whatsapp_domainlist." + format, "w")
+    finalFile.write("# ============================================================\n")
+    finalFile.write("#\n")
+    finalFile.write("# whatsapp_domainlist\n")
+    finalFile.write("#\n")
+    finalFile.write("# subdomains.domain\n")
+    finalFile.write("#\n")
+    finalFile.write("# List of the WhatsApp server domain and subdomains.\n")
+    finalFile.write("#\n")
+    finalFile.write("# Maintainer      : Meta\n")
+    finalFile.write("# Maintainer URL  : https://securitytrails.com/\n")
+    finalFile.write("# List source URL : https://securitytrails.com/list/apex_domain/whatsapp.com\n")
+    finalFile.write("# List source URL : https://securitytrails.com/list/apex_domain/whatsapp.net\n")
+    finalFile.write("#\n")
+    finalFile.write("# Category        : domains\n")
+    finalFile.write("# Version         : 1\n")
+    finalFile.write("#\n")
+    finalFile.write("# This File Date  : " + strftime("%Y-%m-%d %H:%M:%S", gmtime()) + "\n")
+    finalFile.write("# Update Frequency: 24 hours\n")
+    finalFile.write("# Entries         : " + str(len(clist)) + "\n")
+    finalFile.write("#\n")
+    finalFile.write("# (C) 2011-" + strftime("%Y", gmtime()) + " HybridNetworks Ltd. -- All Rights Reserved\n")
+    finalFile.write("#\n")
+    finalFile.write("# ============================================================\n")
+    finalFile.write("#\n")
+    finalFile.writelines(clist)
+    finalFile.close()
+
+
+################################################################################
 # Download ZIP file from https://developers.facebook.com/
 ################################################################################
 
@@ -133,7 +170,6 @@ def parseTxt(intxt) -> None:
     saveFileList(lst, "netset")
     saveFileList(lst, "list")
     saveFileRSC(lst)
-
 
 def startNow() -> None:
     url = 'https://developers.facebook.com/docs/whatsapp/guides/network-requirements/'
@@ -169,6 +205,49 @@ def startNow() -> None:
 
 
 ################################################################################
+# Security Trails API from https://securitytrails.com/
+################################################################################
+
+
+def startNowDomains() -> None:
+
+    # Check that it is working
+    try:
+        st.ping()
+    except SecurityTrailsError:
+        print('Ping failed')
+        sys.exit(1)
+    
+    subdomains_wacom = st.domain_subdomains('whatsapp.com')
+    subdomains_wanet = st.domain_subdomains('whatsapp.net')
+
+    lst = []
+
+    try:
+        lstxt_wacom = re.search("'subdomains': (.+?)}", str(subdomains_wacom)).group(1)
+        lstxt_wacom = lstxt_wacom.replace("[", "").replace("]", "").replace("'", "").replace(",", "")
+        lstxt_wacom = list(lstxt_wacom.split(" "))
+
+        lstxt_wanet = re.search("'subdomains': (.+?)}", str(subdomains_wanet)).group(1)
+        lstxt_wanet = lstxt_wanet.replace("[", "").replace("]", "").replace("'", "").replace(",", "")
+        lstxt_wanet = list(lstxt_wanet.split(" "))
+    except Exception as e:
+        raise
+    else:
+        pass
+    finally:
+        pass
+
+    for line in lstxt_wacom:
+        lst.append(str(line) + ".whatsapp.com" + "\n")
+
+    for line in lstxt_wanet:
+        lst.append(str(line) + ".whatsapp.net" + "\n")
+
+    saveFileListDomain(lst, "txt")
+
+
+################################################################################
 # Main Function
 ################################################################################
 
@@ -186,6 +265,8 @@ async def main() -> None:
                      if exclude_langs else None)
     generate_output_folder()
     startNow()
+    startNowDomains()
+
 
 if __name__ == "__main__":
     asyncio.run(main())
