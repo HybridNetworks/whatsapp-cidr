@@ -140,7 +140,7 @@ def saveFileListDomain(clist, format) -> None:
     finalFile.write("# Version         : 1\n")
     finalFile.write("#\n")
     finalFile.write("# This File Date  : " + strftime("%Y-%m-%d %H:%M:%S", gmtime()) + "\n")
-    finalFile.write("# Update Frequency: 24 hours\n")
+    finalFile.write("# Update Frequency: 8th/month\n")
     finalFile.write("# Entries         : " + str(len(clist)) + "\n")
     finalFile.write("#\n")
     finalFile.write("# (C) 2011-" + strftime("%Y", gmtime()) + " HybridNetworks Ltd. -- All Rights Reserved\n")
