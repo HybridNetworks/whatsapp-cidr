@@ -20,7 +20,7 @@
 ## 📋 Attributes
 
 1. Produced in IPv4-only and IPv4-CIDR-only. Optional: Domain/Subdomains.
-2. Updates at [≈20:15 AM UTC](https://24timezones.com/zona-horaria/utc) | [≈17:15 ART](https://24timezones.com/zona-horaria/art).
+2. Updates at [≈00:00 UTC](https://24timezones.com/zona-horaria/utc) | [≈21:00 ART](https://24timezones.com/zona-horaria/art).
 3. No excess or trailing whitespace.
 4. No lingering webscraper garbage.
 5. Lines are terminated with `\n`.
