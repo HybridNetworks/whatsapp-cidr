@@ -19,7 +19,7 @@
 
 ## 📋 Attributes
 
-1. Produced in IPv4-only and IPv4-CIDR-only. Optional: Domain/Subdomains.
+1. Produced in IPv4-only and IPv4-CIDR-only. Optional: Domain/Subdomains (Updates 8th of each month).
 2. Updates at [≈00:00 UTC](https://24timezones.com/zona-horaria/utc) | [≈21:00 ART](https://24timezones.com/zona-horaria/art).
 3. No excess or trailing whitespace.
 4. No lingering webscraper garbage.
