@@ -52,7 +52,7 @@ def cleanZip() -> None:
 def saveFileRSC(clist):
     listEnd=[]
     for i in clist:
-        listEnd.append("add list=WHATSAPP-CIRD comment=WHATSAPP-CIRD address=" + i)
+        listEnd.append("add list=WHATSAPP-CIDR comment=WHATSAPP-CIDR address=" + i)
 
     finalFile = open("WhatsApp/whatsapp_cidr_ipv4.rsc", "w")
     finalFile.write("# ============================================================\n")
