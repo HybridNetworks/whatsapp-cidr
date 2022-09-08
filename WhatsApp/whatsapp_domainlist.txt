@@ -14,8 +14,8 @@
 # Category        : domains
 # Version         : 1
 #
-# This File Date  : 2022-08-08 00:37:21
-# Update Frequency: 24 hours
+# This File Date  : 2022-09-08 00:44:10
+# Update Frequency: 8th/month
 # Entries         : 2058
 #
 # (C) 2011-2022 HybridNetworks Ltd. -- All Rights Reserved
@@ -54,8 +54,8 @@ w7.web.whatsapp.com
 lerequest.whatsapp.com
 gamma.whatsapp.com
 w1.web-t.whatsapp.com
-account.whatsapp.com
 betablog.whatsapp.com
+account.whatsapp.com
 betal.whatsapp.com
 m.whatsapp.com
 w4.web-t.whatsapp.com
@@ -118,12 +118,11 @@ sonar.fgig6-1.fna.whatsapp.net
 media.fclj1-1.fna.whatsapp.net
 sonar.fzih1-1.fna.whatsapp.net
 mmi677.whatsapp.net
-e8.whatsapp.net
 fsgn4-1.fna.whatsapp.net
+media.fstu1-2.fna.whatsapp.net
 media.fudi1-1.fna.whatsapp.net
 mmi450.whatsapp.net
 sonar.fvvi1-1.fna.whatsapp.net
-media.fstu1-2.fna.whatsapp.net
 media.flhe13-1.fna.whatsapp.net
 media.fcnq2-2.fna.whatsapp.net
 media.fdur1-1.fna.whatsapp.net
@@ -133,6 +132,7 @@ media.fcgk19-1.fna.whatsapp.net
 media.fhaj1-1.fna.whatsapp.net
 media.fabv2-1.fna.whatsapp.net
 media.flyp2-1.fna.whatsapp.net
+e8.whatsapp.net
 media.fisu2-1.fna.whatsapp.net
 media.fslc2-1.fna.whatsapp.net
 media.fsmt1-1.fna.whatsapp.net
@@ -155,10 +155,10 @@ media.fmii7-1.fna.whatsapp.net
 media.fuio13-1.fna.whatsapp.net
 sonar.fpnq4-1.fna.whatsapp.net
 sonar-cgk1-1.cdn.whatsapp.net
+media.fcen1-1.fna.whatsapp.net
 media.fgnm4-1.fna.whatsapp.net
 media.fros9-1.fna.whatsapp.net
 media.fvvi1-2.fna.whatsapp.net
-media.fcen1-1.fna.whatsapp.net
 media.fhga1-1.fna.whatsapp.net
 media.fnat3-1.fna.whatsapp.net
 media.fssa12-1.fna.whatsapp.net
@@ -194,8 +194,8 @@ media.fkhi3-1.fna.whatsapp.net
 media.fmlg1-1.fna.whatsapp.net
 media.fphx1-1.fna.whatsapp.net
 sonar.ftpa1-1.fna.whatsapp.net
-external.whatsapp.net
 media-hbe.cdn.whatsapp.net
+external.whatsapp.net
 sonar.fcau1-1.fna.whatsapp.net
 mmi749.whatsapp.net
 sonar.fsaw1-2.fna.whatsapp.net
@@ -323,7 +323,6 @@ media.fvcp1-1.fna.whatsapp.net
 sonar-mty.cdn.whatsapp.net
 media.faal2-1.fna.whatsapp.net
 media.fbdq2-1.fna.whatsapp.net
-media.fbel4-1.fna.whatsapp.net
 media.fcau9-1.fna.whatsapp.net
 media.flcj1-1.fna.whatsapp.net
 sonar.ffjr1-2.fna.whatsapp.net
@@ -331,8 +330,9 @@ sonar.fhsv1-1.fna.whatsapp.net
 sonar-hel3-1.cdn.whatsapp.net
 media.fgvr3-1.fna.whatsapp.net
 media.ftia6-1.fna.whatsapp.net
-sonar-lhr.cdn.whatsapp.net
 media-gru.cdn.whatsapp.net
+media.fbel4-1.fna.whatsapp.net
+sonar-lhr.cdn.whatsapp.net
 media.frix1-1.fna.whatsapp.net
 media.fvix2-1.fna.whatsapp.net
 mmi303.whatsapp.net
@@ -355,6 +355,7 @@ media.ftip3-1.fna.whatsapp.net
 sonar.fbnu4-1.fna.whatsapp.net
 sonar.fnag1-2.fna.whatsapp.net
 sonar.fslz5-1.fna.whatsapp.net
+sonar-scl2-1.cdn.whatsapp.net
 b.ns.cdn.whatsapp.net
 sonar.fmab1-1.fna.whatsapp.net
 sonar.fmct3-1.fna.whatsapp.net
@@ -412,7 +413,6 @@ sonar-ber.cdn.whatsapp.net
 media.fmvf2-1.fna.whatsapp.net
 sonar.fcwb1-1.fna.whatsapp.net
 media.fdet2-1.fna.whatsapp.net
-c3.whatsapp.net
 media.fbsb6-1.fna.whatsapp.net
 media.fpnq4-1.fna.whatsapp.net
 sonar.fist3-1.fna.whatsapp.net
@@ -422,18 +422,18 @@ media.fcgk17-1.fna.whatsapp.net
 media.ftrd2-1.fna.whatsapp.net
 media.fmid1-1.fna.whatsapp.net
 sonar.fvix4-2.fna.whatsapp.net
-sonar-lcy.cdn.whatsapp.net
 media.flfw1-1.fna.whatsapp.net
+c3.whatsapp.net
 media.fuio17-1.fna.whatsapp.net
 media.fyyz2-1.fna.whatsapp.net
 sonar-yyz1-1.cdn.whatsapp.net
 media.fbgx1-1.fna.whatsapp.net
+sonar-lcy.cdn.whatsapp.net
 media.fjoi1-2.fna.whatsapp.net
 sonar.fagu1-1.fna.whatsapp.net
 sonar.fjhb1-1.fna.whatsapp.net
 media.fcgh15-1.fna.whatsapp.net
 mmi667.whatsapp.net
-d4.whatsapp.net
 media.fgua3-2.fna.whatsapp.net
 media.ftun2-1.fna.whatsapp.net
 media.fdac17-1.fna.whatsapp.net
@@ -447,6 +447,7 @@ media.fpku1-2.fna.whatsapp.net
 media.fsti4-1.fna.whatsapp.net
 media.fbog8-1.fna.whatsapp.net
 sonar-frx5-1.cdn.whatsapp.net
+d4.whatsapp.net
 media.fasu2-1.fna.whatsapp.net
 media.fktm1-1.fna.whatsapp.net
 media.fpos3-1.fna.whatsapp.net
@@ -465,6 +466,9 @@ media.fsac1-1.fna.whatsapp.net
 sonar.fcpv8-1.fna.whatsapp.net
 sonar.frgn3-1.fna.whatsapp.net
 fmvd4-1.fna.whatsapp.net
+media.fbau5-1.fna.whatsapp.net
+media.fgua6-1.fna.whatsapp.net
+media.fkgl1-1.fna.whatsapp.net
 sonar.fjoi1-2.fna.whatsapp.net
 media.febb5-1.fna.whatsapp.net
 media.fgyd5-1.fna.whatsapp.net
@@ -481,9 +485,6 @@ sonar.fssa2-1.fna.whatsapp.net
 media-hkg4-2.cdn.whatsapp.net
 media.fvix4-1.fna.whatsapp.net
 media.fwzy2-1.fna.whatsapp.net
-media.fbau5-1.fna.whatsapp.net
-media.fgua6-1.fna.whatsapp.net
-media.fkgl1-1.fna.whatsapp.net
 media-dus1-1.cdn.whatsapp.net
 sonar.fdiq3-1.fna.whatsapp.net
 sonar.fvix3-1.fna.whatsapp.net
@@ -495,6 +496,9 @@ mmi290.whatsapp.net
 mmi440.whatsapp.net
 sonar-cpt1-1.cdn.whatsapp.net
 fsdu2-1.fna.whatsapp.net
+media.faju11-1.fna.whatsapp.net
+media.fdac10-1.fna.whatsapp.net
+sonar.fgdl4-1.fna.whatsapp.net
 media.fkul2-1.fna.whatsapp.net
 media.flwo3-1.fna.whatsapp.net
 media.frao2-1.fna.whatsapp.net
@@ -505,9 +509,6 @@ media.fqps3-1.fna.whatsapp.net
 sonar.forg1-1.fna.whatsapp.net
 sonar.fbru1-1.fna.whatsapp.net
 qa.fsgn5-3.fna.whatsapp.net
-media.faju11-1.fna.whatsapp.net
-media.fdac10-1.fna.whatsapp.net
-sonar.fgdl4-1.fna.whatsapp.net
 media.ffra2-1.fna.whatsapp.net
 sonar.foem1-1.fna.whatsapp.net
 sonar.fjed4-3.fna.whatsapp.net
@@ -598,9 +599,9 @@ media.fcgp4-1.fna.whatsapp.net
 media.flhe10-1.fna.whatsapp.net
 media.fubt1-1.fna.whatsapp.net
 sonar-itm.cdn.whatsapp.net
-e14.whatsapp.net
 media-hkt1-1.cdn.whatsapp.net
 sonar-sea1-1.cdn.whatsapp.net
+e14.whatsapp.net
 sonar.fcfc1-1.fna.whatsapp.net
 sonar.fskg1-2.fna.whatsapp.net
 media.fksc1-1.fna.whatsapp.net
@@ -631,7 +632,6 @@ mmi249.whatsapp.net
 sonar.fbog2-1.fna.whatsapp.net
 fpac2-1.fna.whatsapp.net
 sonar-iev.cdn.whatsapp.net
-sonar-sof.cdn.whatsapp.net
 sonar.ffsd1-1.fna.whatsapp.net
 sonar.fgyd1-1.fna.whatsapp.net
 sonar.froo1-1.fna.whatsapp.net
@@ -643,8 +643,8 @@ media.fiev2-1.fna.whatsapp.net
 media.fxry1-2.fna.whatsapp.net
 media.fhkg5-1.fna.whatsapp.net
 sonar.facc5-1.fna.whatsapp.net
-sonar.fdac3-1.fna.whatsapp.net
 sonar.fxap1-1.fna.whatsapp.net
+sonar.fdac3-1.fna.whatsapp.net
 media.fmaa1-4.fna.whatsapp.net
 sonar.fdla2-1.fna.whatsapp.net
 sonar.fkik6-1.fna.whatsapp.net
@@ -652,6 +652,7 @@ media-lcy1-1.cdn.whatsapp.net
 media.fbog4-1.fna.whatsapp.net
 media.frao1-2.fna.whatsapp.net
 media.fvix3-1.fna.whatsapp.net
+sonar-sof.cdn.whatsapp.net
 mmi331.whatsapp.net
 media.fldb2-2.fna.whatsapp.net
 mmi267.whatsapp.net
@@ -712,8 +713,8 @@ media.fcue3-1.fna.whatsapp.net
 media.frba2-1.fna.whatsapp.net
 media.fyvr2-1.fna.whatsapp.net
 fyto1-1.fna.whatsapp.net
-c.whatsapp.net
 media.fbos1-2.fna.whatsapp.net
+media.fsnz1-1.fna.whatsapp.net
 sonar.fphl2-3.fna.whatsapp.net
 mmi251.whatsapp.net
 media.fsaw2-2.fna.whatsapp.net
@@ -732,16 +733,16 @@ media.fbey17-1.fna.whatsapp.net
 media.fptz1-1.fna.whatsapp.net
 media.fssa10-1.fna.whatsapp.net
 media.ftru2-1.fna.whatsapp.net
-media.fsnz1-1.fna.whatsapp.net
 sonar-mxp2-1.cdn.whatsapp.net
-sonar-xsp.cdn.whatsapp.net
+c.whatsapp.net
+sonar.fdnk5-1.fna.whatsapp.net
 media.falg1-1.fna.whatsapp.net
 sonar.fmea2-1.fna.whatsapp.net
-sonar.fdnk5-1.fna.whatsapp.net
 media.fgru3-1.fna.whatsapp.net
 sonar-mxp1-1.cdn.whatsapp.net
 fapa1-1.fna.whatsapp.net
 mmi102.whatsapp.net
+sonar-xsp.cdn.whatsapp.net
 media.fdps3-1.fna.whatsapp.net
 media.fmct5-1.fna.whatsapp.net
 media-hel3-1.cdn.whatsapp.net
@@ -807,13 +808,13 @@ media.fmru2-1.fna.whatsapp.net
 media.ftjl2-1.fna.whatsapp.net
 media.fgig10-1.fna.whatsapp.net
 media.ftjl1-1.fna.whatsapp.net
+media.ffrc6-1.fna.whatsapp.net
 sonar.fsjo9-1.fna.whatsapp.net
 media.fnsi2-1.fna.whatsapp.net
 sonar.fhan7-1.fna.whatsapp.net
 sonar.flis6-1.fna.whatsapp.net
 media.ftlv5-1.fna.whatsapp.net
 media.fuio2-1.fna.whatsapp.net
-media.ffrc6-1.fna.whatsapp.net
 mmi242.whatsapp.net
 sonar.fdoh6-1.fna.whatsapp.net
 media.flcy1-1.fna.whatsapp.net
@@ -849,9 +850,9 @@ media.fecn6-1.fna.whatsapp.net
 mmi685.whatsapp.net
 media.fvtz1-1.fna.whatsapp.net
 media.fcph4-1.fna.whatsapp.net
-media.fdac2-1.fna.whatsapp.net
 media.fsvq2-1.fna.whatsapp.net
 mmi326.whatsapp.net
+media.fhkg13-1.fna.whatsapp.net
 media.fsaw1-1.fna.whatsapp.net
 sonar.fabv2-1.fna.whatsapp.net
 sonar.fmgq1-1.fna.whatsapp.net
@@ -859,10 +860,9 @@ fmel3-1.fna.whatsapp.net
 media.fdiq3-1.fna.whatsapp.net
 media.fvie1-1.fna.whatsapp.net
 sonar.fclj2-1.fna.whatsapp.net
-media.fhkg13-1.fna.whatsapp.net
+media-iad.cdn.whatsapp.net
 media.fstu1-1.fna.whatsapp.net
 sonar.flhr6-1.fna.whatsapp.net
-media-iad.cdn.whatsapp.net
 media.fbog9-1.fna.whatsapp.net
 media.fbss1-1.fna.whatsapp.net
 sonar.fjpa7-1.fna.whatsapp.net
@@ -875,6 +875,7 @@ media.ffor8-1.fna.whatsapp.net
 media.fkul12-1.fna.whatsapp.net
 sonar.fbhz3-1.fna.whatsapp.net
 media.fcgb2-1.fna.whatsapp.net
+media.fdac2-1.fna.whatsapp.net
 media.fdur6-1.fna.whatsapp.net
 media.fnog1-1.fna.whatsapp.net
 media.fpmw1-1.fna.whatsapp.net
@@ -889,13 +890,13 @@ sonar.fist1-1.fna.whatsapp.net
 sonar.fvix2-1.fna.whatsapp.net
 media.fcmb7-1.fna.whatsapp.net
 sonar.fdiq4-1.fna.whatsapp.net
-media.ferm1-1.fna.whatsapp.net
 media.fmgq2-1.fna.whatsapp.net
 sonar.frak1-1.fna.whatsapp.net
 media-ssn1-1.cdn.whatsapp.net
 media.feoh5-1.fna.whatsapp.net
 media.figu2-1.fna.whatsapp.net
 sonar.ffor4-1.fna.whatsapp.net
+media.ferm1-1.fna.whatsapp.net
 media.fhan5-7.fna.whatsapp.net
 media.fyyc3-1.fna.whatsapp.net
 sonar.flhe13-1.fna.whatsapp.net
@@ -913,7 +914,10 @@ media.ftxl3-2.fna.whatsapp.net
 sonar-vie.cdn.whatsapp.net
 sonar.fcxh1-1.fna.whatsapp.net
 sonar.fclo1-1.fna.whatsapp.net
+media-ber1-1.cdn.whatsapp.net
 media.fads1-1.fna.whatsapp.net
+media.fbjm1-1.fna.whatsapp.net
+media.fmex21-1.fna.whatsapp.net
 media.frkv1-1.fna.whatsapp.net
 mmi482.whatsapp.net
 media.fccm7-1.fna.whatsapp.net
@@ -928,9 +932,6 @@ media.fndj1-1.fna.whatsapp.net
 sonar.fagr1-2.fna.whatsapp.net
 sonar.fccm8-1.fna.whatsapp.net
 sonar.fifo2-1.fna.whatsapp.net
-media-ber1-1.cdn.whatsapp.net
-media.fbjm1-1.fna.whatsapp.net
-media.fmex21-1.fna.whatsapp.net
 media.fbgw5-1.fna.whatsapp.net
 sonar.fccp5-1.fna.whatsapp.net
 media.fhou1-2.fna.whatsapp.net
@@ -941,10 +942,11 @@ media.fmty3-1.fna.whatsapp.net
 sonar.fvlg1-1.fna.whatsapp.net
 marchmedia.fyxd1-1.fna.whatsapp.net
 media.ffco2-1.fna.whatsapp.net
-media.fplu14-1.fna.whatsapp.net
 vpn.cn.fdac80-1.fna.whatsapp.net
+media.fplu14-1.fna.whatsapp.net
 mmi284.whatsapp.net
 media.fkhi13-1.fna.whatsapp.net
+media.fdiq2-1.fna.whatsapp.net
 media.fmci1-2.fna.whatsapp.net
 mmi425.whatsapp.net
 mmi435.whatsapp.net
@@ -964,7 +966,6 @@ media.fmem1-1.fna.whatsapp.net
 sonar.ftlv4-1.fna.whatsapp.net
 media.fric1-2.fna.whatsapp.net
 media.fstu6-1.fna.whatsapp.net
-sonar.fybz2-1.fna.whatsapp.net
 media.fcgy1-1.fna.whatsapp.net
 media.ffsd2-1.fna.whatsapp.net
 sonar.fmsq4-1.fna.whatsapp.net
@@ -975,7 +976,7 @@ media.fesb1-2.fna.whatsapp.net
 media.ffuk2-1.fna.whatsapp.net
 media.fnog2-1.fna.whatsapp.net
 sonar-msp.cdn.whatsapp.net
-media.fdiq2-1.fna.whatsapp.net
+sonar.fybz2-1.fna.whatsapp.net
 sonar.fidr1-2.fna.whatsapp.net
 sonar.fcpt4-1.fna.whatsapp.net
 sonar.fsuv2-1.fna.whatsapp.net
@@ -999,6 +1000,8 @@ sonar.fgnm1-1.fna.whatsapp.net
 media-lhr8-1.cdn.whatsapp.net
 media.fbkk5-4.fna.whatsapp.net
 media.ffor15-1.fna.whatsapp.net
+sonar-jnb.cdn.whatsapp.net
+sonar.fadb3-1.fna.whatsapp.net
 sonar.fcxh2-1.fna.whatsapp.net
 sonar.fmga3-2.fna.whatsapp.net
 media.faar1-1.fna.whatsapp.net
@@ -1010,8 +1013,6 @@ media.fcps1-1.fna.whatsapp.net
 media.ffjr1-2.fna.whatsapp.net
 media.flko4-1.fna.whatsapp.net
 media.fsgn4-1.fna.whatsapp.net
-sonar-jnb.cdn.whatsapp.net
-sonar.fadb3-1.fna.whatsapp.net
 my-od-1.whatsapp.net
 media.fdur4-1.fna.whatsapp.net
 frec3-2.fna.whatsapp.net
@@ -1028,17 +1029,17 @@ mmi260.whatsapp.net
 mmi656.whatsapp.net
 media.fgpb1-1.fna.whatsapp.net
 media.fktm2-1.fna.whatsapp.net
-my-od-4.whatsapp.net
 media.ffor29-1.fna.whatsapp.net
-sonar.fsbz3-1.fna.whatsapp.net
-media.fjed4-3.fna.whatsapp.net
-media.fmkz1-1.fna.whatsapp.net
 media.fbdj3-1.fna.whatsapp.net
 media.fkul6-1.fna.whatsapp.net
 media.fmgf6-1.fna.whatsapp.net
 media.fpfb5-1.fna.whatsapp.net
 sonar.fpoo2-1.fna.whatsapp.net
+sonar.fsbz3-1.fna.whatsapp.net
+media.fjed4-3.fna.whatsapp.net
+media.fmkz1-1.fna.whatsapp.net
 media.fkik5-1.fna.whatsapp.net
+my-od-4.whatsapp.net
 media.fpnz4-1.fna.whatsapp.net
 media.fcgk4-1.fna.whatsapp.net
 media.fcpv2-1.fna.whatsapp.net
@@ -1133,7 +1134,6 @@ sonar.fyyc3-1.fna.whatsapp.net
 media.fdub1-2.fna.whatsapp.net
 media.fktm7-1.fna.whatsapp.net
 sonar.fdnk1-1.fna.whatsapp.net
-e13.whatsapp.net
 media-fco2-1.cdn.whatsapp.net
 media.fdac20-1.fna.whatsapp.net
 sonar.fjai5-1.fna.whatsapp.net
@@ -1143,6 +1143,7 @@ sonar.faju4-1.fna.whatsapp.net
 sonar.fdav2-1.fna.whatsapp.net
 sonar.fwbw1-1.fna.whatsapp.net
 media.fqcj4-1.fna.whatsapp.net
+e13.whatsapp.net
 media.fmel5-1.fna.whatsapp.net
 media.ftlv8-1.fna.whatsapp.net
 mmi702.whatsapp.net
@@ -1159,18 +1160,17 @@ media.fbsr9-1.fna.whatsapp.net
 acc-media.fbts1-1.fna.whatsapp.net
 media.fjdo6-1.fna.whatsapp.net
 sonar.fbpn2-1.fna.whatsapp.net
-sonar.fcjb1-1.fna.whatsapp.net
 ferm1-1.fna.whatsapp.net
+sonar.fcjb1-1.fna.whatsapp.net
 media-dub4-1.cdn.whatsapp.net
 sonar.fthe3-1.fna.whatsapp.net
 media-mia3-1.cdn.whatsapp.net
-media.fcjb1-1.fna.whatsapp.net
 media.fhex2-1.fna.whatsapp.net
 media.fkwi9-1.fna.whatsapp.net
 sonar.fsub1-1.fna.whatsapp.net
 sonar.fotp3-1.fna.whatsapp.net
+media.fcjb1-1.fna.whatsapp.net
 sonar.fval2-1.fna.whatsapp.net
-sonar.fslz7-1.fna.whatsapp.net
 fatl1-2.fna.whatsapp.net
 sonar.fgyd4-1.fna.whatsapp.net
 sonar.fsaw1-3.fna.whatsapp.net
@@ -1193,6 +1193,7 @@ sonar-lis.cdn.whatsapp.net
 sonar.fopo3-2.fna.whatsapp.net
 media.fbkk7-2.fna.whatsapp.net
 sonar.flec4-1.fna.whatsapp.net
+sonar.fslz7-1.fna.whatsapp.net
 media.fcph1-1.fna.whatsapp.net
 media-ams4-1.cdn.whatsapp.net
 media.fjdo8-1.fna.whatsapp.net
@@ -1234,9 +1235,9 @@ media.fvgo2-1.fna.whatsapp.net
 sonar.fsap3-1.fna.whatsapp.net
 sonar.fssa8-1.fna.whatsapp.net
 sonar.fvix5-1.fna.whatsapp.net
+media.fbgw3-1.fna.whatsapp.net
 media.famd3-1.fna.whatsapp.net
 media.fgru9-1.fna.whatsapp.net
-media.fbgw3-1.fna.whatsapp.net
 media.fcag1-1.fna.whatsapp.net
 sonar.fkgf2-1.fna.whatsapp.net
 media.fthe5-1.fna.whatsapp.net
@@ -1317,7 +1318,6 @@ sonar.fssa9-1.fna.whatsapp.net
 sonar-tpe1-1.cdn.whatsapp.net
 media-itm1-1.cdn.whatsapp.net
 media.faqa2-1.fna.whatsapp.net
-media.fslz7-1.fna.whatsapp.net
 sonar.fdub4-1.fna.whatsapp.net
 sonar.fnlv1-1.fna.whatsapp.net
 media.fbkk12-2.fna.whatsapp.net
@@ -1328,6 +1328,7 @@ sonar.flos3-2.fna.whatsapp.net
 sonar.fplu3-1.fna.whatsapp.net
 sonar-muc2-1.cdn.whatsapp.net
 media.fdad5-1.fna.whatsapp.net
+media.fslz7-1.fna.whatsapp.net
 media.fakl1-2.fna.whatsapp.net
 media.fhel1-1.fna.whatsapp.net
 media.fbkk7-3.fna.whatsapp.net
@@ -1361,12 +1362,12 @@ media.fros5-1.fna.whatsapp.net
 media.fanf4-1.fna.whatsapp.net
 media.fadd1-1.fna.whatsapp.net
 media.fcky2-1.fna.whatsapp.net
-sonar-mia.cdn.whatsapp.net
 media.fadb4-1.fna.whatsapp.net
 media.fsyd3-1.fna.whatsapp.net
 sonar.flbv4-1.fna.whatsapp.net
 media.ftia8-1.fna.whatsapp.net
 mmg-fna.whatsapp.net
+sonar-mia.cdn.whatsapp.net
 media.fbeg6-1.fna.whatsapp.net
 media.fgua3-1.fna.whatsapp.net
 media.fmad11-2.fna.whatsapp.net
@@ -1388,11 +1389,11 @@ fzag1-1.fna.whatsapp.net
 mmi245.whatsapp.net
 media.fsub1-2.fna.whatsapp.net
 media.fhkg4-1.fna.whatsapp.net
+media.fasu9-1.fna.whatsapp.net
 media.fbkk6-1.fna.whatsapp.net
 media.fmad12-1.fna.whatsapp.net
 media.fmkc2-1.fna.whatsapp.net
 media.fsrg2-1.fna.whatsapp.net
-media.fasu9-1.fna.whatsapp.net
 sonar.ffez1-2.fna.whatsapp.net
 sonar.fgyd8-1.fna.whatsapp.net
 sonar-mba.cdn.whatsapp.net
@@ -1405,6 +1406,7 @@ sonar.facc1-1.fna.whatsapp.net
 media.fbog2-1.fna.whatsapp.net
 media.fpuq2-1.fna.whatsapp.net
 media.fuio6-1.fna.whatsapp.net
+media.fpnh8-1.fna.whatsapp.net
 mmi264.whatsapp.net
 frun3-1.fna.whatsapp.net
 media.fccu4-1.fna.whatsapp.net
@@ -1422,7 +1424,6 @@ media.fccj1-1.fna.whatsapp.net
 media.fcgk11-1.fna.whatsapp.net
 media.ffor12-1.fna.whatsapp.net
 media-fml2-1.cdn.whatsapp.net
-media.fpnh8-1.fna.whatsapp.net
 media.fsuv3-1.fna.whatsapp.net
 sonar.fisb3-2.fna.whatsapp.net
 media.fgib1-1.fna.whatsapp.net
@@ -1459,9 +1460,12 @@ v-k.whatsapp.net
 media.fopo1-1.fna.whatsapp.net
 media.ftlv1-2.fna.whatsapp.net
 media.fbah2-1.fna.whatsapp.net
+media.fdps4-1.fna.whatsapp.net
 media.fgye10-2.fna.whatsapp.net
+media.fjai4-1.fna.whatsapp.net
 media.fmsq1-1.fna.whatsapp.net
 media.fsyd4-1.fna.whatsapp.net
+media.ftuc2-1.fna.whatsapp.net
 sonar.fbah2-1.fna.whatsapp.net
 mme-fna.whatsapp.net
 mmi663.whatsapp.net
@@ -1480,9 +1484,6 @@ media.fcuu2-1.fna.whatsapp.net
 media.fgdl5-3.fna.whatsapp.net
 media.flos11-1.fna.whatsapp.net
 sonar.ffec6-1.fna.whatsapp.net
-media.fdps4-1.fna.whatsapp.net
-media.fjai4-1.fna.whatsapp.net
-media.ftuc2-1.fna.whatsapp.net
 media.fadl6-1.fna.whatsapp.net
 media.fdyu3-1.fna.whatsapp.net
 media.fsdu4-1.fna.whatsapp.net
@@ -1566,7 +1567,6 @@ sonar.fstu2-1.fna.whatsapp.net
 media.fitm1-1.fna.whatsapp.net
 sonar.ffco4-1.fna.whatsapp.net
 sonar.fstv1-1.fna.whatsapp.net
-media.fjsr1-1.fna.whatsapp.net
 media.fbgi3-1.fna.whatsapp.net
 media.fmii3-1.fna.whatsapp.net
 sonar.fbaq6-1.fna.whatsapp.net
@@ -1577,6 +1577,7 @@ media.fmvf4-1.fna.whatsapp.net
 media.fvlc2-2.fna.whatsapp.net
 sonar.fruh4-5.fna.whatsapp.net
 sonar-los2-1.cdn.whatsapp.net
+media.fjsr1-1.fna.whatsapp.net
 media.fntr5-1.fna.whatsapp.net
 media.fsdu24-1.fna.whatsapp.net
 sonar-hbe.cdn.whatsapp.net
@@ -1586,7 +1587,6 @@ mmi687.whatsapp.net
 sonar.fbed1-2.fna.whatsapp.net
 media.frun2-1.fna.whatsapp.net
 media.ftpe7-1.fna.whatsapp.net
-e16.whatsapp.net
 fjai1-2.fna.whatsapp.net
 mmi298.whatsapp.net
 mmi735.whatsapp.net
@@ -1607,6 +1607,7 @@ media.fisb7-1.fna.whatsapp.net
 media.fist11-1.fna.whatsapp.net
 media.fclo6-1.fna.whatsapp.net
 sonar-ist1-1.cdn.whatsapp.net
+e16.whatsapp.net
 sonar.fanf4-1.fna.whatsapp.net
 sonar-dub.cdn.whatsapp.net
 fcxj6-1.fna.whatsapp.net
@@ -1618,20 +1619,20 @@ sonar.fmed1-1.fna.whatsapp.net
 sonar.fgua6-1.fna.whatsapp.net
 media.ftru2-3.fna.whatsapp.net
 media.fkrt1-1.fna.whatsapp.net
-sonar.fbel4-1.fna.whatsapp.net
 sonar.fmvf3-1.fna.whatsapp.net
 sonar.fktm7-1.fna.whatsapp.net
 sonar.fubt1-1.fna.whatsapp.net
 sonar.fvlc2-1.fna.whatsapp.net
 media.fthe10-1.fna.whatsapp.net
 sonar.fsjk4-1.fna.whatsapp.net
-media.fbgw4-2.fna.whatsapp.net
 media.fcgr3-1.fna.whatsapp.net
 media.fjdo7-1.fna.whatsapp.net
 media.fsof6-1.fna.whatsapp.net
 sonar.faju1-1.fna.whatsapp.net
 sonar.fdti2-1.fna.whatsapp.net
 sonar-dfw5-2.cdn.whatsapp.net
+sonar.fbel4-1.fna.whatsapp.net
+media.fbgw4-2.fna.whatsapp.net
 media.flun1-1.fna.whatsapp.net
 mmi302.whatsapp.net
 media.fskg1-2.fna.whatsapp.net
@@ -1648,6 +1649,7 @@ sonar.figu5-1.fna.whatsapp.net
 sonar-sof1-1.cdn.whatsapp.net
 media.fagu1-1.fna.whatsapp.net
 media.fssz5-1.fna.whatsapp.net
+media.fppb1-1.fna.whatsapp.net
 media.fsal2-1.fna.whatsapp.net
 sonar.fgyn6-1.fna.whatsapp.net
 media.fccu13-1.fna.whatsapp.net
@@ -1656,7 +1658,6 @@ sonar.ftia9-1.fna.whatsapp.net
 media.fbdo1-2.fna.whatsapp.net
 media.ffec8-1.fna.whatsapp.net
 media.fmex2-1.fna.whatsapp.net
-media.fppb1-1.fna.whatsapp.net
 fldb2-2.fna.whatsapp.net
 sonar.fbne2-1.fna.whatsapp.net
 media.fbki1-1.fna.whatsapp.net
@@ -1682,9 +1683,9 @@ media.fadb2-1.fna.whatsapp.net
 media.fjdf3-1.fna.whatsapp.net
 media.fupn1-1.fna.whatsapp.net
 media.fbsr1-1.fna.whatsapp.net
-media-lax.cdn.whatsapp.net
 fgua3-1.fna.whatsapp.net
 mmi312.whatsapp.net
+media.fvvc2-1.fna.whatsapp.net
 euw-media.fvno1-1.fna.whatsapp.net
 sonar.fnic3-1.fna.whatsapp.net
 sonar.fsjo5-1.fna.whatsapp.net
@@ -1693,7 +1694,6 @@ sonar.ffec3-1.fna.whatsapp.net
 sonar.fsjo3-1.fna.whatsapp.net
 media.ftpe8-4.fna.whatsapp.net
 sonar.fbog8-1.fna.whatsapp.net
-media.fvvc2-1.fna.whatsapp.net
 sonar.ftuc2-1.fna.whatsapp.net
 media.fmmx3-1.fna.whatsapp.net
 sonar.fmvf5-1.fna.whatsapp.net
@@ -1701,6 +1701,7 @@ media-cpt1-1.cdn.whatsapp.net
 media.fagr2-1.fna.whatsapp.net
 media.fclq1-1.fna.whatsapp.net
 media.flsc1-1.fna.whatsapp.net
+media-lax.cdn.whatsapp.net
 media-payment.fvga1-1.fna.whatsapp.net
 media.fbsr8-1.fna.whatsapp.net
 media.fmex9-1.fna.whatsapp.net
@@ -1712,6 +1713,7 @@ media.fkye2-1.fna.whatsapp.net
 media.fvlc2-1.fna.whatsapp.net
 sonar.fads1-1.fna.whatsapp.net
 media.fapq3-1.fna.whatsapp.net
+media.fhyd4-1.fna.whatsapp.net
 sonar.fmad3-7.fna.whatsapp.net
 media.fbjp2-1.fna.whatsapp.net
 sonar.ffln3-1.fna.whatsapp.net
@@ -1726,12 +1728,13 @@ media.fkbl6-1.fna.whatsapp.net
 media.flcg1-1.fna.whatsapp.net
 media.fotp7-1.fna.whatsapp.net
 sonar.fagc3-2.fna.whatsapp.net
-media.fhyd4-1.fna.whatsapp.net
 media.fpmc1-1.fna.whatsapp.net
 mmi286.whatsapp.net
+media.fmad13-1.fna.whatsapp.net
 media.fplu9-2.fna.whatsapp.net
 mmi316.whatsapp.net
 rp.whatsapp.net
+sonar.fhuy1-1.fna.whatsapp.net
 media.fkin1-1.fna.whatsapp.net
 media.fpet2-1.fna.whatsapp.net
 nmedia.flos2-1.fna.whatsapp.net
@@ -1740,8 +1743,6 @@ media.fgel3-1.fna.whatsapp.net
 mmi266.whatsapp.net
 media.flhr7-1.fna.whatsapp.net
 sonar.fymq1-1.fna.whatsapp.net
-media.fmad13-1.fna.whatsapp.net
-sonar.fhuy1-1.fna.whatsapp.net
 media.fsdq1-1.fna.whatsapp.net
 sonar.fros2-2.fna.whatsapp.net
 media.fcjs2-1.fna.whatsapp.net
@@ -1753,6 +1754,7 @@ sonar.famm3-1.fna.whatsapp.net
 sonar.fcnq2-2.fna.whatsapp.net
 sonar.fdou2-1.fna.whatsapp.net
 media-cdt.cdn.whatsapp.net
+sonar-gmp1-1.cdn.whatsapp.net
 mmi270.whatsapp.net
 mmi500.whatsapp.net
 sonar.fada1-4.fna.whatsapp.net
@@ -1827,15 +1829,14 @@ sonar.fcnf1-1.fna.whatsapp.net
 media.fmel3-1.fna.whatsapp.net
 media.fplm4-1.fna.whatsapp.net
 fdac5-1.fna.whatsapp.net
-sonar-tir.cdn.whatsapp.net
 media-gmp1-1.cdn.whatsapp.net
 mmi416.whatsapp.net
 media.fsfn2-1.fna.whatsapp.net
 sonar.fbio2-2.fna.whatsapp.net
 sonar.fbog3-1.fna.whatsapp.net
 media.faep7-1.fna.whatsapp.net
-sonar.fgdl5-1.fna.whatsapp.net
 media.fbsb4-1.fna.whatsapp.net
+sonar.fgdl5-1.fna.whatsapp.net
 sonar-iad3-1.cdn.whatsapp.net
 sonar.fdmm2-4.fna.whatsapp.net
 media.fcor2-1.fna.whatsapp.net
@@ -1843,6 +1844,7 @@ u001emedia.ftij2-1.fna.whatsapp.net
 sonar-otp1-1.cdn.whatsapp.net
 media.fcen2-1.fna.whatsapp.net
 media.ffor1-3.fna.whatsapp.net
+sonar-tir.cdn.whatsapp.net
 media.fada1-6.fna.whatsapp.net
 media.feoh6-1.fna.whatsapp.net
 media.fqps1-1.fna.whatsapp.net
@@ -1850,13 +1852,14 @@ sonar.fvno6-1.fna.whatsapp.net
 sonar-ham3-1.cdn.whatsapp.net
 sonar.fmgf1-2.fna.whatsapp.net
 fmex7-1.fna.whatsapp.net
+media.fadl2-1.fna.whatsapp.net
 mmi647.whatsapp.net
 media.fbhi3-2.fna.whatsapp.net
 media.flos5-1.fna.whatsapp.net
 media.fcpv8-1.fna.whatsapp.net
 media.fngo2-1.fna.whatsapp.net
-media.fool1-1.fna.whatsapp.net
 sonar.fgvr3-1.fna.whatsapp.net
+media.fool1-1.fna.whatsapp.net
 sonar.fssz3-1.fna.whatsapp.net
 sonar.fadd1-1.fna.whatsapp.net
 sonar.fbts5-1.fna.whatsapp.net
@@ -1867,9 +1870,8 @@ media.fbel1-1.fna.whatsapp.net
 media.fcyw1-1.fna.whatsapp.net
 sonar.fldb2-1.fna.whatsapp.net
 sonar.fhou1-2.fna.whatsapp.net
-media.fadl2-1.fna.whatsapp.net
-mmg-fallback.whatsapp.net
 mmx-fna.cdn.whatsapp.net
+mmg-fallback.whatsapp.net
 sonar.fjed4-5.fna.whatsapp.net
 d.ns.whatsapp.net
 media.fbbi3-1.fna.whatsapp.net
@@ -1915,7 +1917,6 @@ media.fbfh6-1.fna.whatsapp.net
 media.fbpn2-1.fna.whatsapp.net
 sonar.fsub1-2.fna.whatsapp.net
 sonar.fstu1-2.fna.whatsapp.net
-bin-nokia.whatsapp.net
 sonar.fmaa3-1.fna.whatsapp.net
 sonar.fsdu20-1.fna.whatsapp.net
 mmi248.whatsapp.net
@@ -1932,9 +1933,11 @@ sonar-lga3-1.cdn.whatsapp.net
 media.fgye2-1.fna.whatsapp.net
 media.fmid2-1.fna.whatsapp.net
 sonar-mad1-1.cdn.whatsapp.net
+bin-nokia.whatsapp.net
 mmi130.whatsapp.net
 sonar.fbog2-2.fna.whatsapp.net
 mmi704.whatsapp.net
+sonar.fgbe2-1.fna.whatsapp.net
 media.fmga3-1.fna.whatsapp.net
 media.furg1-1.fna.whatsapp.net
 sonar.fakl5-1.fna.whatsapp.net
@@ -1957,12 +1960,11 @@ media.fsjo6-1.fna.whatsapp.net
 sonar.fcgk18-1.fna.whatsapp.net
 media.fhkg10-1.fna.whatsapp.net
 sonar.fntr7-1.fna.whatsapp.net
-sonar.fgbe2-1.fna.whatsapp.net
+c2.whatsapp.net
 mmi313.whatsapp.net
 mmi449.whatsapp.net
 mmi723.whatsapp.net
 sonar.fkul4-1.fna.whatsapp.net
-c2.whatsapp.net
 media.fbkl1-1.fna.whatsapp.net
 media.fgye8-1.fna.whatsapp.net
 media.fnjf7-1.fna.whatsapp.net
@@ -2000,7 +2002,6 @@ media.fhel2-1.fna.whatsapp.net
 media.flhr3-1.fna.whatsapp.net
 sonar.farn2-1.fna.whatsapp.net
 media.fcor1-1.fna.whatsapp.net
-mmf-ds.cdn.whatsapp.net
 media.fiev16-1.fna.whatsapp.net
 media.fmid3-1.fna.whatsapp.net
 media.fkrt3-2.fna.whatsapp.net
@@ -2019,6 +2020,7 @@ media.fmgq1-1.fna.whatsapp.net
 media.fpoj3-1.fna.whatsapp.net
 sonar.ftrc1-1.fna.whatsapp.net
 webapp.fsdq1-2.fna.whatsapp.net
+mmf-ds.cdn.whatsapp.net
 fgig8-1.fna.whatsapp.net
 media.fkwi5-1.fna.whatsapp.net
 sonar.floh2-1.fna.whatsapp.net
@@ -2078,5 +2080,3 @@ media.fmvs1-1.fna.whatsapp.net
 media.fbog6-1.fna.whatsapp.net
 media.fnvt1-1.fna.whatsapp.net
 sonar.flad1-1.fna.whatsapp.net
-media.fcoo1-2.fna.whatsapp.net
-media.fgcj1-1.fna.whatsapp.net
