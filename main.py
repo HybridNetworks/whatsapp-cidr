@@ -16,7 +16,8 @@ from time import gmtime, strftime
 from pathlib import Path
 from pysecuritytrails import SecurityTrails, SecurityTrailsError
 
-st = SecurityTrails('4BmIMfy1j7N8BnXQr2cd0TehnZSMY2W8')
+api_st = os.getenv("SECURITYTRAILS_API")
+st = SecurityTrails(api_st)
 
 ################################################################################
 # Helper Functions
