@@ -267,7 +267,7 @@ async def main() -> None:
                      if exclude_langs else None)
     generate_output_folder()
     startNow()
-    if strftime("%d", gmtime()) in '08':
+    if strftime("%d", gmtime()) in '14':
         startNowDomains()
 
 
