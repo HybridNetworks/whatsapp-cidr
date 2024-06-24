@@ -50,38 +50,40 @@ def cleanZip() -> None:
 # Save File RSC Mikrotik
 ################################################################################
 
-def saveFileRSC(clist):
-    listEnd=[]
-    for i in clist:
+
+def saveFileRSC(base_list):
+    listEnd = []
+    listEnd.append("# ============================================================" + "\n")
+    listEnd.append("#"+ "\n")
+    listEnd.append("# whatsapp_cidr_ipv4"+ "\n")
+    listEnd.append("#"+ "\n")
+    listEnd.append("# ipv4 mikrotik address-list"+ "\n")
+    listEnd.append("#"+ "\n")
+    listEnd.append("# List of the WhatsApp server IP addresses and ranges."+ "\n")
+    listEnd.append("#"+ "\n")
+    listEnd.append("# Maintainer      : Meta"+ "\n")
+    listEnd.append("# Maintainer URL  : https://about.meta.com/"+ "\n")
+    listEnd.append("# List source URL : https://developers.facebook.com/docs/whatsapp/guides/network-requirements/"+ "\n")
+    listEnd.append("#"+ "\n")
+    listEnd.append("# Category        : servers"+ "\n")
+    listEnd.append("# Version         : 1"+ "\n")
+    listEnd.append("#"+ "\n")
+    listEnd.append("# This File Date  : " + strftime("%Y-%m-%d %H:%M:%S", gmtime()) + ""+ "\n")
+    listEnd.append("# Update Frequency: 24 hours"+ "\n")
+    listEnd.append("# Entries         : " + str(len(base_list)) + ""+ "\n")
+    listEnd.append("#"+ "\n")
+    listEnd.append("# (C) 2011-" + strftime("%Y", gmtime()) + " HybridNetworks Ltd. -- All Rights Reserved"+ "\n")
+    listEnd.append("#"+ "\n")
+    listEnd.append("# ============================================================"+ "\n")
+    listEnd.append("#"+ "\n")
+    listEnd.append("/ip firewall address-list"+ "\n")
+
+    for i in base_list:
         listEnd.append("add list=WHATSAPP-CIDR comment=WHATSAPP-CIDR address=" + i)
 
-    finalFile = open("WhatsApp/whatsapp_cidr_ipv4.rsc", "w")
-    finalFile.write("# ============================================================\n")
-    finalFile.write("#\n")
-    finalFile.write("# whatsapp_cidr\n")
-    finalFile.write("#\n")
-    finalFile.write("# ipv4 mikrotik address-list\n")
-    finalFile.write("#\n")
-    finalFile.write("# List of the WhatsApp server IP addresses and ranges.\n")
-    finalFile.write("#\n")
-    finalFile.write("# Maintainer      : Meta\n")
-    finalFile.write("# Maintainer URL  : https://about.facebook.com/\n")
-    finalFile.write("# List source URL : https://developers.facebook.com/docs/whatsapp/guides/network-requirements/\n")
-    finalFile.write("#\n")
-    finalFile.write("# Category        : servers\n")
-    finalFile.write("# Version         : 1\n")
-    finalFile.write("#\n")
-    finalFile.write("# This File Date  : " + strftime("%Y-%m-%d %H:%M:%S", gmtime()) + "\n")
-    finalFile.write("# Update Frequency: 24 hours\n")
-    finalFile.write("# Entries         : " + str(len(clist)) + "\n")
-    finalFile.write("#\n")
-    finalFile.write("# (C) 2011-" + strftime("%Y", gmtime()) + " HybridNetworks Ltd. -- All Rights Reserved\n")
-    finalFile.write("#\n")
-    finalFile.write("# ============================================================\n")
-    finalFile.write("#\n")
-    finalFile.write("/ip firewall address-list" + "\n")
+    finalFile = open("WhatsApp/whatsapp_cidr_ipv4.rsc", "w+", encoding='utf-8', newline='\n')
     finalFile.writelines(listEnd)
-    finalFile.close() 
+    finalFile.close()
 
 
 ################################################################################
@@ -89,32 +91,35 @@ def saveFileRSC(clist):
 ################################################################################
 
 
-def saveFileList(clist, format) -> None:
-    finalFile = open("WhatsApp/whatsapp_cidr_ipv4." + format, "w")
-    finalFile.write("# ============================================================\n")
-    finalFile.write("#\n")
-    finalFile.write("# whatsapp_cidr\n")
-    finalFile.write("#\n")
-    finalFile.write("# ipv4 hash:net ipset\n")
-    finalFile.write("#\n")
-    finalFile.write("# List of the WhatsApp server IP addresses and ranges.\n")
-    finalFile.write("#\n")
-    finalFile.write("# Maintainer      : Meta\n")
-    finalFile.write("# Maintainer URL  : https://about.facebook.com/\n")
-    finalFile.write("# List source URL : https://developers.facebook.com/docs/whatsapp/guides/network-requirements/\n")
-    finalFile.write("#\n")
-    finalFile.write("# Category        : servers\n")
-    finalFile.write("# Version         : 1\n")
-    finalFile.write("#\n")
-    finalFile.write("# This File Date  : " + strftime("%Y-%m-%d %H:%M:%S", gmtime()) + "\n")
-    finalFile.write("# Update Frequency: 24 hours\n")
-    finalFile.write("# Entries         : " + str(len(clist)) + "\n")
-    finalFile.write("#\n")
-    finalFile.write("# (C) 2011-" + strftime("%Y", gmtime()) + " HybridNetworks Ltd. -- All Rights Reserved\n")
-    finalFile.write("#\n")
-    finalFile.write("# ============================================================\n")
-    finalFile.write("#\n")
-    finalFile.writelines(clist)
+def saveFileList(base_list, format) -> None:
+    listEnd = []
+    listEnd.append("# ============================================================"+ "\n")
+    listEnd.append("#"+ "\n")
+    listEnd.append("# whatsapp_cidr_ipv4"+ "\n")
+    listEnd.append("#"+ "\n")
+    listEnd.append("# ipv4 hash:net ipset"+ "\n")
+    listEnd.append("#"+ "\n")
+    listEnd.append("# List of the WhatsApp server IP addresses and ranges."+ "\n")
+    listEnd.append("#"+ "\n")
+    listEnd.append("# Maintainer      : Meta"+ "\n")
+    listEnd.append("# Maintainer URL  : https://about.meta.com/"+ "\n")
+    listEnd.append("# List source URL : https://developers.facebook.com/docs/whatsapp/guides/network-requirements/"+ "\n")
+    listEnd.append("#"+ "\n")
+    listEnd.append("# Category        : servers"+ "\n")
+    listEnd.append("# Version         : 1"+ "\n")
+    listEnd.append("#"+ "\n")
+    listEnd.append("# This File Date  : " + strftime("%Y-%m-%d %H:%M:%S", gmtime()) + "\n")
+    listEnd.append("# Update Frequency: 24 hours"+ "\n")
+    listEnd.append("# Entries         : " + str(len(base_list)) + "\n")
+    listEnd.append("#"+ "\n")
+    listEnd.append("# (C) 2011-" + strftime("%Y", gmtime()) + " HybridNetworks Ltd. -- All Rights Reserved"+ "\n")
+    listEnd.append("#"+ "\n")
+    listEnd.append("# ============================================================"+ "\n")
+    listEnd.append("#"+ "\n")
+    listEnd.extend(base_list)
+
+    finalFile = open("WhatsApp/whatsapp_cidr_ipv4." + format, "w+", encoding='utf-8', newline='\n')
+    finalFile.writelines(listEnd)
     finalFile.close()
 
 
@@ -123,33 +128,36 @@ def saveFileList(clist, format) -> None:
 ################################################################################
 
 
-def saveFileListDomain(clist, format) -> None:
-    finalFile = open("WhatsApp/whatsapp_domainlist." + format, "w")
-    finalFile.write("# ============================================================\n")
-    finalFile.write("#\n")
-    finalFile.write("# whatsapp_domainlist\n")
-    finalFile.write("#\n")
-    finalFile.write("# subdomains.domain\n")
-    finalFile.write("#\n")
-    finalFile.write("# List of the WhatsApp server domain and subdomains.\n")
-    finalFile.write("#\n")
-    finalFile.write("# Maintainer      : Meta\n")
-    finalFile.write("# Maintainer URL  : https://securitytrails.com/\n")
-    finalFile.write("# List source URL : https://securitytrails.com/list/apex_domain/whatsapp.com\n")
-    finalFile.write("# List source URL : https://securitytrails.com/list/apex_domain/whatsapp.net\n")
-    finalFile.write("#\n")
-    finalFile.write("# Category        : domains\n")
-    finalFile.write("# Version         : 1\n")
-    finalFile.write("#\n")
-    finalFile.write("# This File Date  : " + strftime("%Y-%m-%d %H:%M:%S", gmtime()) + "\n")
-    finalFile.write("# Update Frequency: 8th/month\n")
-    finalFile.write("# Entries         : " + str(len(clist)) + "\n")
-    finalFile.write("#\n")
-    finalFile.write("# (C) 2011-" + strftime("%Y", gmtime()) + " HybridNetworks Ltd. -- All Rights Reserved\n")
-    finalFile.write("#\n")
-    finalFile.write("# ============================================================\n")
-    finalFile.write("#\n")
-    finalFile.writelines(clist)
+def saveFileListDomain(base_list, format) -> None:
+    listEnd = []
+    listEnd.append("# ============================================================"+ "\n")
+    listEnd.append("#"+ "\n")
+    listEnd.append("# whatsapp_domainlist"+ "\n")
+    listEnd.append("#"+ "\n")
+    listEnd.append("# subdomains.domain"+ "\n")
+    listEnd.append("#"+ "\n")
+    listEnd.append("# List of the WhatsApp server domain and subdomains."+ "\n")
+    listEnd.append("#"+ "\n")
+    listEnd.append("# Maintainer      : SecurityTrails"+ "\n")
+    listEnd.append("# Maintainer URL  : https://securitytrails.com/"+ "\n")
+    listEnd.append("# List source URL : https://securitytrails.com/list/apex_domain/whatsapp.com"+ "\n")
+    listEnd.append("# List source URL : https://securitytrails.com/list/apex_domain/whatsapp.net"+ "\n")
+    listEnd.append("#"+ "\n")
+    listEnd.append("# Category        : domains"+ "\n")
+    listEnd.append("# Version         : 1"+ "\n")
+    listEnd.append("#"+ "\n")
+    listEnd.append("# This File Date  : " + strftime("%Y-%m-%d %H:%M:%S", gmtime()) + "\n")
+    listEnd.append("# Update Frequency: 8th/month"+ "\n")
+    listEnd.append("# Entries         : " + str(len(base_list)) + "\n")
+    listEnd.append("#"+ "\n")
+    listEnd.append("# (C) 2011-" + strftime("%Y", gmtime()) + " HybridNetworks Ltd. -- All Rights Reserved"+ "\n")
+    listEnd.append("#"+ "\n")
+    listEnd.append("# ============================================================"+ "\n")
+    listEnd.append("#"+ "\n")
+    listEnd.extend(base_list)
+
+    finalFile = open("WhatsApp/whatsapp_domainlist." + format, "w+", encoding='utf-8', newline='\n')
+    finalFile.writelines(listEnd)
     finalFile.close()
 
 
@@ -162,7 +170,7 @@ def parseTxt(intxt) -> None:
     re_ip_mask = re.compile(r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\/\d{1,2}')
     lst = []
 
-    data_list = str(intxt, 'UTF-8').split("\n")
+    data_list = str(intxt, 'UTF-8').split("\r\n")
     for line in data_list:
         ip = re.findall(re_ip_mask, line)
         if ip:
@@ -172,6 +180,7 @@ def parseTxt(intxt) -> None:
     saveFileList(lst, "netset")
     saveFileList(lst, "list")
     saveFileRSC(lst)
+
 
 def startNow() -> None:
     url = 'https://developers.facebook.com/docs/whatsapp/guides/network-requirements/'
