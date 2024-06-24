@@ -1,19 +1,19 @@
 # ============================================================
 #
-# whatsapp_cidr
+# whatsapp_cidr_ipv4
 #
 # ipv4 mikrotik address-list
 #
 # List of the WhatsApp server IP addresses and ranges.
 #
 # Maintainer      : Meta
-# Maintainer URL  : https://about.facebook.com/
+# Maintainer URL  : https://about.meta.com/
 # List source URL : https://developers.facebook.com/docs/whatsapp/guides/network-requirements/
 #
 # Category        : servers
 # Version         : 1
 #
-# This File Date  : 2024-06-24 00:37:25
+# This File Date  : 2024-06-24 03:32:50
 # Update Frequency: 24 hours
 # Entries         : 229
 #
