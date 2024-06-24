@@ -1,0 +1,25 @@
+# ============================================================
+#
+# whatsapp_domainlist
+#
+# subdomains.domain
+#
+# List of the third parties WhatsApp server domain and subdomains.
+#
+# Maintainer      : Meta
+# Maintainer URL  : https://about.meta.com/
+# List source URL : https://developers.facebook.com/docs/whatsapp/guides/network-requirements/
+#
+# Category        : servers
+# Version         : 1
+#
+# This File Date  : 2024-06-24 19:21:00
+# Update Frequency: manual
+# Entries         : 2
+#
+# (C) 2011-2024 HybridNetworks Ltd. -- All Rights Reserved
+#
+# ============================================================
+#
+dl.bintray.com
+akamai.bintray.com
