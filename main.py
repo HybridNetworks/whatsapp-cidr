@@ -144,10 +144,10 @@ def saveFileListDomain(base_list, format) -> None:
     listEnd.append("# List source URL : https://securitytrails.com/list/apex_domain/whatsapp.net"+ "\n")
     listEnd.append("#"+ "\n")
     listEnd.append("# Category        : domains"+ "\n")
-    listEnd.append("# Version         : 1"+ "\n")
+    listEnd.append("# Version         : 2"+ "\n")
     listEnd.append("#"+ "\n")
     listEnd.append("# This File Date  : " + strftime("%Y-%m-%d %H:%M:%S", gmtime()) + "\n")
-    listEnd.append("# Update Frequency: 8th/month"+ "\n")
+    listEnd.append("# Update Frequency: 14th/month"+ "\n")
     listEnd.append("# Entries         : " + str(len(base_list)) + "\n")
     listEnd.append("#"+ "\n")
     listEnd.append("# (C) 2011-" + strftime("%Y", gmtime()) + " HybridNetworks Ltd. -- All Rights Reserved"+ "\n")
@@ -231,6 +231,8 @@ def startNowDomains() -> None:
     
     subdomains_wacom = st.domain_subdomains('whatsapp.com')
     subdomains_wanet = st.domain_subdomains('whatsapp.net')
+    subdomains_wame = st.domain_subdomains('wa.me')
+    subdomains_wabiz = st.domain_subdomains('whatsapp.biz')
 
     lst = []
 
@@ -242,6 +244,15 @@ def startNowDomains() -> None:
         lstxt_wanet = re.search("'subdomains': (.+?)}", str(subdomains_wanet)).group(1)
         lstxt_wanet = lstxt_wanet.replace("[", "").replace("]", "").replace("'", "").replace(",", "")
         lstxt_wanet = list(lstxt_wanet.split(" "))
+
+        lstxt_wame = re.search("'subdomains': (.+?)}", str(subdomains_wame)).group(1)
+        lstxt_wame = lstxt_wame.replace("[", "").replace("]", "").replace("'", "").replace(",", "")
+        lstxt_wame = list(lstxt_wame.split(" "))
+
+        lstxt_wabiz = re.search("'subdomains': (.+?)}", str(subdomains_wabiz)).group(1)
+        lstxt_wabiz = lstxt_wabiz.replace("[", "").replace("]", "").replace("'", "").replace(",", "")
+        lstxt_wabiz = list(lstxt_wabiz.split(" "))
+
     except Exception as e:
         raise
     else:
@@ -254,6 +265,12 @@ def startNowDomains() -> None:
 
     for line in lstxt_wanet:
         lst.append(str(line) + ".whatsapp.net" + "\n")
+
+    for line in lstxt_wame:
+        lst.append(str(line) + ".wa.me" + "\n")
+
+    for line in lstxt_wabiz:
+        lst.append(str(line) + ".whatsapp.biz" + "\n")
 
     saveFileListDomain(lst, "txt")
 
