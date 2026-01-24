@@ -1,3 +1,9 @@
+| :warning: Deprecation Notice          |
+|:--------------------------------------|
+| This repository has been archived and will no longer receive updates. <br><br><b>Reason:</b> Meta/WhatsApp has discontinued the public IP range file. According to their official statement, access to these IP pools is now exclusive to mobile operators via the Facebook Mobile Partner Portal. <br><br>Since WhatsApp now generates these ranges dynamically and privately per partner, it is no longer possible to maintain an automated or manual public list in this repository. <br><br>If your network is a mobile operator, feel free to browse to the Settings page of the portal and download the latest WhatsApp IP pool: https://fb.me/mpp_support |
+
+<hr>
+
 <div align="center">
   <h3> 📜 WhatsApp CIDR ♻️ </h3>
   <hr>
